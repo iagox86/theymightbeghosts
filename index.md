@@ -5,7 +5,7 @@
 layout: home
 ---
 
-# Events
+# Events 2
 
 <div class="event-list">
   {% for event in site.data.events %}
