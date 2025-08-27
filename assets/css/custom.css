@@ -1,3 +1,9 @@
+.event-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em; /* Adjust spacing as needed */
+}
+
 .event-card {
   display: flex;
   background: #fff;

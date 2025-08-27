@@ -5,7 +5,8 @@
   url: https://www.eventbrite.com/e/improv-vermillion-featuring-they-might-be-ghosts-dollbrick-tickets-1627034486949
   image: 2025-09-07-show-poster-vermillion.jpeg
 
-# - title: Comedy Showcase
-#   date: 2025-07-12
-#   venue: Downtown Stage
-#   url: https://example.com/event/showcase
+- title: IndieProv @ The Drama Room
+  date: "Friday, December 12 @ 7:30pm (doors @ 7pm)"
+  venue: The Drama Room at University Heights
+  venur_url: https://maps.app.goo.gl/2nnk5QrWf8zoCh9t8
+  # url: https://www.eventbrite.com/e/improv-vermillion-featuring-they-might-be-ghosts-dollbrick-tickets-1627034486949

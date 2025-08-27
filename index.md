@@ -17,7 +17,10 @@ permalink: /
         <h2>{{ event.title }}</h2>
         <p><strong>Date:</strong> {{ event.date }}</p>
         <p><strong>Venue:</strong> {{ event.venue }}</p>
-        <a class="event-link" href="{{ event.url }}">More info</a>
+
+        {% if event.url %}
+            <a class="event-link" href="{{ event.url }}">More info</a>
+        {% endif %}
       </div>
     </div>
   {% endfor %}
