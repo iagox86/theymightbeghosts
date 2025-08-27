@@ -4,8 +4,8 @@ description: >-
   Improvisors celebrating life, here and in the hereafter
 baseurl: ""
 url: "https://theymightbeghosts.com"
-# twitter_username: jekyllrb
-# github_username:  jekyll
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
 theme: minima
