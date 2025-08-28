@@ -114,3 +114,25 @@
     align-items: flex-start;
   }
 }
+
+.lightbox-overlay {
+  position: fixed;
+  z-index: 2000;
+  left: 0; top: 0; right: 0; bottom: 0;
+  width: 100vw; height: 100vh;
+  display: flex;
+  align-items: center; justify-content: center;
+  background: rgba(0,0,0,0.84);
+}
+.lightbox-overlay img {
+  max-width: 94vw;
+  max-height: 94vh;
+  border-radius: 8px;
+  box-shadow: 0 0 24px rgba(0,0,0,0.70);
+}
+@media (max-width: 600px) {
+  .lightbox-overlay img {
+    max-width: 98vw;
+    max-height: 70vh;
+  }
+}

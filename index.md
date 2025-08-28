@@ -11,7 +11,12 @@ permalink: /
   {% for event in site.data.events %}
     <div class="event-card">
       <div class="event-poster">
-        <img src="assets/img/{{ event.image | default: 'logo.webp' }}" alt="Poster for {{ event.title }}">
+        <img
+          src="assets/img/{{ event.image | default: 'logo.webp' }}"
+          alt="Poster for {{ event.title }}"
+          class="event-poster-img"
+          data-full="/assets/img/{{ event.image | default: 'logo.webp' }}"
+        >
       </div>
       <div class="event-details">
         <h2>{{ event.title }}</h2>
