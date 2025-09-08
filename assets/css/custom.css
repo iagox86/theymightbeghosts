@@ -1,3 +1,8 @@
+.event-section-title {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
 .event-list {
   display: flex;
   flex-direction: column;
@@ -26,6 +31,7 @@
   height: 100%;
   object-fit: cover;
   display: block;
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
@@ -134,5 +140,32 @@
   .lightbox-overlay img {
     max-width: 98vw;
     max-height: 70vh;
+  }
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+}
+.gallery-thumb img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.10);
+  transition: transform 0.2s;
+}
+.gallery-thumb img:hover, .gallery-thumb img:active {
+  transform: scale(1.05);
+}
+@media (max-width: 600px) {
+  .image-gallery {
+    gap: 0.5em;
+  }
+  .gallery-thumb img {
+    width: 88px;
+    height: 88px;
   }
 }

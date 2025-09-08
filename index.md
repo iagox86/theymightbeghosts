@@ -7,8 +7,36 @@ title: Events
 permalink: /
 ---
 
+<h2 class="event-section-title">Upcoming events</h2>
+
 <div class="event-list">
-  {% for event in site.data.events %}
+  {% for event in site.data.events.upcoming %}
+    <div class="event-card">
+      <div class="event-poster">
+        <img
+          src="assets/img/{{ event.image | default: 'logo.webp' }}"
+          alt="Poster for {{ event.title }}"
+          class="event-poster-img"
+          data-full="/assets/img/{{ event.image | default: 'logo.webp' }}"
+        >
+      </div>
+      <div class="event-details">
+        <h2>{{ event.title }}</h2>
+        <p><strong>Date:</strong> {{ event.date }}</p>
+        <p><strong>Venue:</strong> {{ event.venue }}</p>
+
+        {% if event.url %}
+            <a class="event-link" href="{{ event.url }}">More info</a>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<h2 class="event-section-title">Past events</h2>
+
+<div class="event-list">
+  {% for event in site.data.events.past %}
     <div class="event-card">
       <div class="event-poster">
         <img

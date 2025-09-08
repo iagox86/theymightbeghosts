@@ -1,13 +1,15 @@
-- title: Improv @ Vermillion (Dollbrick + They Might Be Ghosts)
-  date: "Sunday, September 7, 2025 @ 7pm (doors @ 6:30pm)"
-  venue: Vermillion
-  venur_url: https://maps.app.goo.gl/sNMJPF7gPK3NLnQFA
-  url: https://www.eventbrite.com/e/improv-vermillion-featuring-they-might-be-ghosts-dollbrick-tickets-1627034486949
-  image: 2025-09-07-show-poster-vermillion.jpeg
+upcoming:
+  - title: IndieProv @ The Drama Room
+    date: "Friday, December 12 @ 7:30pm (doors @ 7pm)"
+    venue: The Drama Room at University Heights
+    venur_url: https://maps.app.goo.gl/2nnk5QrWf8zoCh9t8
+    # url: https://www.eventbrite.com/e/improv-vermillion-featuring-they-might-be-ghosts-dollbrick-tickets-1627034486949
+    image: indieprov.png
 
-- title: IndieProv @ The Drama Room
-  date: "Friday, December 12 @ 7:30pm (doors @ 7pm)"
-  venue: The Drama Room at University Heights
-  venur_url: https://maps.app.goo.gl/2nnk5QrWf8zoCh9t8
-  # url: https://www.eventbrite.com/e/improv-vermillion-featuring-they-might-be-ghosts-dollbrick-tickets-1627034486949
-  image: indieprov.png
+past:
+  - title: Improv @ Vermillion (Dollbrick + They Might Be Ghosts)
+    date: "Sunday, September 7, 2025 @ 7pm (doors @ 6:30pm)"
+    venue: Vermillion
+    venur_url: https://maps.app.goo.gl/sNMJPF7gPK3NLnQFA
+    url: https://www.eventbrite.com/e/improv-vermillion-featuring-they-might-be-ghosts-dollbrick-tickets-1627034486949
+    image: 2025-09-07-show-poster-vermillion.jpeg
