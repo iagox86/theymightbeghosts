@@ -1,9 +1,9 @@
-<header class="site-header">
-  <div class="wrapper header-flex">
+<header class="site-header" role="banner">
+  <div class="wrapper site-header-flex">
     <a href="{{ '/' | relative_url }}" class="logo-link">
       <img src="{{ '/assets/img/logo.webp' | relative_url }}" class="site-logo" alt="Site Logo" />
     </a>
-    <a class="site-title" rel="author" href="{{ '/' | relative_url }}">
+    <a class="site-title" href="{{ '/' | relative_url }}">
       {{ site.title | escape }}
     </a>
 
@@ -31,6 +31,7 @@
         </div>
       </nav>
     {%- endif -%}
+
 
   </div>
 </header>
