@@ -1,11 +1,4 @@
 upcoming:
-  - title: "Showdown: Improv Comedy Cage Match @ Bandit Theater"
-    date: "Friday, September 26 @ 7:00pm"
-    venue: Fremont Abbey 4272 Fremont Avenue North
-    venue_url: http://maps.google.com/?q=4272%20Fremont%20Avenue%20North%20Seattle,%20WA,%2098103%20United%20States
-    url: https://www.bandittheater.org/tickets/2025/4/6/showdown-improv-comedy-cage-match-7pm-show-h32ze-5bwx9-e7twg-dk956
-    image: bandit.webp
-
   - title: IndieProv @ The Drama Room
     date: "Friday, December 12 @ 7:30pm (doors @ 7pm)"
     venue: The Drama Room at University Heights
@@ -14,6 +7,13 @@ upcoming:
     image: indieprov.png
 
 past:
+  - title: "Showdown: Improv Comedy Cage Match @ Bandit Theater"
+    date: "Friday, September 26 @ 7:00pm"
+    venue: Fremont Abbey 4272 Fremont Avenue North
+    venue_url: http://maps.google.com/?q=4272%20Fremont%20Avenue%20North%20Seattle,%20WA,%2098103%20United%20States
+    url: https://www.bandittheater.org/tickets/2025/4/6/showdown-improv-comedy-cage-match-7pm-show-h32ze-5bwx9-e7twg-dk956
+    image: bandit.webp
+
   - title: Improv @ Vermillion (Dollbrick + They Might Be Ghosts)
     date: "Sunday, September 7, 2025 @ 7pm (doors @ 6:30pm)"
     venue: Vermillion
