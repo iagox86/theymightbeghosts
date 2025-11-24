@@ -2,6 +2,14 @@
 layout: page
 title: Photo Gallery
 permalink: /gallery/
+keywords:
+- Seattle
+- Indie
+- Improv
+- They Might Be Ghosts
+- Photos
+
+description: Photo gallary
 ---
 
 <script>

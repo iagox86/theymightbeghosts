@@ -7,4 +7,14 @@
   <script src="{{ "/assets/js/custom.js" | relative_url }}"></script>
 
   <title>They Might Be Ghosts!</title>
+
+  {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords | join: ', ' | escape }}">
+  {% endif %}
+  {% if page.tags and page.keywords == nil %}
+    <meta name="keywords" content="{{ page.tags | join: ', ' | escape }}">
+  {% endif %}
+  {% if page.description %}
+    <meta name="description" content="{{ page.description | escape }} for They Might Be Ghosts, an independent Seattle improv troupe!">
+  {% endif %}
 </head>

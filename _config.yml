@@ -4,11 +4,12 @@ description: >-
   Improvisors celebrating life, here and in the hereafter
 baseurl: ""
 url: "https://theymightbeghosts.com"
-twitter_username: jekyllrb
-github_username:  jekyll
+author:
+  name: "They Might Be Ghosts"
 
 # Build settings
 theme: minima
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag

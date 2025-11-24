@@ -3,8 +3,14 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Events
 permalink: /
+keywords:
+- Seattle
+- Indie
+- Improv
+- They Might Be Ghosts
+
+description: Upcoming events
 ---
 
 <h2 class="event-section-title">Upcoming events</h2>
