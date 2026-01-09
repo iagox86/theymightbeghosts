@@ -1,4 +1,10 @@
-upcoming: []
+upcoming:
+  - title: IndieProv @ Jet City
+    date: "Wednesday, December 17, 2025 @ 7:30pm (doors @ 7pm)"
+    venue: The Drama Room @ Jet City
+    venue_url: https://goo.gl/maps/bwEv4n2Khmnbgv6P7
+    url: https://jetcityimprov.my.salesforce-sites.com/ticket/PatronTicket__PublicTicketApp#/instances/a03VW00000htoRyYAI
+    image: indieprov.png
 
 past:
   - title: Improv @ Vermillion (with Servant of Two Maestros, Stay Silly, and Fan/Friction)
