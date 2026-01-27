@@ -14,7 +14,13 @@
   {% if page.tags and page.keywords == nil %}
     <meta name="keywords" content="{{ page.tags | join: ', ' | escape }}">
   {% endif %}
-  {% if page.description %}
+
+  {% if site.data.events.upcoming[0] %}
+    <meta property="og:title" content="They Might Be Ghosts!">
+    <meta property="og:description" content="Next show: {{ site.data.events.upcoming[0].title }}">
+    <meta property="og:image" content="https://theymightbeghosts.com/assets/img/{{ site.data.events.upcoming[0].image }}">
+    <meta name="twitter:card" content="summary_large_image">
+  {% else %}
     <meta name="description" content="{{ page.description | escape }} for They Might Be Ghosts, an independent Seattle improv troupe!">
   {% endif %}
 </head>

@@ -17,11 +17,11 @@
   overflow: hidden;
   align-items: stretch;
   max-width: 700px;
-  min-height: 180px; /* Or adjust as needed */
+  min-height: 250px; /* Or adjust as needed */
 }
 
 .event-poster {
-  flex: 0 0 180px; /* Fixed base width, doesn't shrink or grow */
+  flex: 0 0 250px; /* Fixed base width, doesn't shrink or grow */
   display: flex;
   align-items: stretch;
 }
@@ -43,7 +43,7 @@
   .event-poster {
     flex-basis: auto;
     width: 100%;
-    max-height: 200px;
+    /* max-height: 800px; */
     overflow: hidden;
   }
   .event-details {

@@ -36,6 +36,10 @@ description: Upcoming events
           <p><strong>Venue:</strong> {{ event.venue }}</p>
         {% endif %}
 
+        {% if event.details %}
+          <p><strong>Details:</strong> {{ event.details }}</p>
+        {% endif %}
+
         {% if event.url %}
             <a class="event-link" href="{{ event.url }}">More info</a>
         {% endif %}
