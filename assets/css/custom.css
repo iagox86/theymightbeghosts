@@ -1,3 +1,7 @@
+body {
+  background-color: #fff0db;
+}
+
 .event-section-title {
   margin-top: 2em;
   margin-bottom: 1em;
@@ -128,7 +132,7 @@
 
 .site-header {
   width: 100%;
-  background: #fff;
+  background-color: #fff8f0;
   border-bottom: 1px solid #eee;
   position: relative;
   z-index: 100;
