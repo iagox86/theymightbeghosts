@@ -1,11 +1,4 @@
 upcoming:
-  - title: Fifth Date Vibes @ Vermillion (with Dollbrick and Just Happy to Be Here)
-    date: "Wednesday, February 11, 2026 @ 7:00pm (doors @ 6:30pm)"
-    venue: The Vermillion
-    venue_url: https://maps.app.goo.gl/sNMJPF7gPK3NLnQFA
-    image: 2026-02-11-fifth-date-vibes.webp
-    details: Free show, just show up!
-
   - title: IndieProv @ Jet City
     date: "Friday, March 13 @ 7:30pm (door @ 7pm)"
     venue: The Drama Room @ Jet City
@@ -14,6 +7,13 @@ upcoming:
     image: indieprov.png
 
 past:
+  - title: Fifth Date Vibes @ Vermillion (with Dollbrick and Just Happy to Be Here)
+    date: "Wednesday, February 11, 2026 @ 7:00pm (doors @ 6:30pm)"
+    venue: The Vermillion
+    venue_url: https://maps.app.goo.gl/sNMJPF7gPK3NLnQFA
+    image: 2026-02-11-fifth-date-vibes.webp
+    details: Free show, just show up!
+
   - title: Improv @ Vermillion (with Servant of Two Maestros, Stay Silly, and Fan/Friction)
     date: "Wednesday, December 17, 2025 @ 7:30pm (doors @ 7pm)"
     venue: Vermillion
