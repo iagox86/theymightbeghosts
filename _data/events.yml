@@ -1,4 +1,19 @@
 upcoming:
+  - title: Ghosts Made Me Do It @ The Vermillion (with TBD guests)
+    date: "Sunday, April 19 @ 7pm"
+    venue: The Vermillion
+    venue_url: https://maps.app.goo.gl/sNMJPF7gPK3NLnQFA
+    # url: https://jetcityimprov.my.salesforce-sites.com/ticket/PatronTicket__PublicTicketApp#/instances/a03VW00000htoRyYAI
+    # image: indieprov.png
+
+  - title: Improv Overload @ Halcyon Brewing
+    date: "Friday, April 24 @ 7pm"
+    venue: Halcyon Brewing
+    venue_url: https://maps.app.goo.gl/eD5MS2qws5cgspLH8
+    # url: https://jetcityimprov.my.salesforce-sites.com/ticket/PatronTicket__PublicTicketApp#/instances/a03VW00000htoRyYAI
+    # image: indieprov.png
+
+past:
   - title: IndieProv @ Jet City
     date: "Friday, March 13 @ 7:30pm (door @ 7pm)"
     venue: The Drama Room @ Jet City
@@ -6,7 +21,6 @@ upcoming:
     url: https://jetcityimprov.my.salesforce-sites.com/ticket/PatronTicket__PublicTicketApp#/instances/a03VW00000htoRyYAI
     image: indieprov.png
 
-past:
   - title: Fifth Date Vibes @ Vermillion (with Dollbrick and Just Happy to Be Here)
     date: "Wednesday, February 11, 2026 @ 7:00pm (doors @ 6:30pm)"
     venue: The Vermillion
