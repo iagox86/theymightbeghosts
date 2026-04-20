@@ -1,11 +1,4 @@
 upcoming:
-  - title: Ghosts Made Me Do It @ The Vermillion (with Stay Silly and New Cuss Words)
-    date: "Sunday, April 19 @ 7pm"
-    venue: The Vermillion
-    venue_url: https://maps.app.goo.gl/sNMJPF7gPK3NLnQFA
-    # url: https://jetcityimprov.my.salesforce-sites.com/ticket/PatronTicket__PublicTicketApp#/instances/a03VW00000htoRyYAI
-    image: 2026-04-19-ghosts-made-me-do-it.webp
-
   - title: Improv Overload @ Halcyon Brewing
     date: "Friday, April 24 @ 7pm"
     venue: Halcyon Brewing
@@ -14,6 +7,13 @@ upcoming:
     image: 2026-04-24-improv-overload.jpg
 
 past:
+  - title: Ghosts Made Me Do It @ The Vermillion (with Stay Silly and New Cuss Words)
+    date: "Sunday, April 19 @ 7pm"
+    venue: The Vermillion
+    venue_url: https://maps.app.goo.gl/sNMJPF7gPK3NLnQFA
+    # url: https://jetcityimprov.my.salesforce-sites.com/ticket/PatronTicket__PublicTicketApp#/instances/a03VW00000htoRyYAI
+    image: 2026-04-19-ghosts-made-me-do-it.webp
+
   - title: IndieProv @ Jet City
     date: "Friday, March 13 @ 7:30pm (door @ 7pm)"
     venue: The Drama Room @ Jet City
