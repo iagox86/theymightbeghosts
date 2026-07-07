@@ -33,6 +33,17 @@ a:visited {
   color: var(--accent);
 }
 
+/* Shared look for card-like content blocks (CTA banner, event cards,
+   community sidebar) so new ones stay visually consistent by default. */
+.cta-banner,
+.event-card,
+.community-details {
+  background: #fff;
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(120, 72, 32, 0.10);
+}
+
 .cta-banner {
   display: flex;
   align-items: center;
@@ -40,12 +51,8 @@ a:visited {
   flex-wrap: wrap;
   gap: 1em;
   max-width: 900px;
-  background: var(--cream-light);
-  border: 1px solid var(--card-border);
-  border-radius: 12px;
   padding: 1.2em 1.5em;
   margin-bottom: 1.5em;
-  box-shadow: 0 2px 10px rgba(120, 72, 32, 0.10);
 }
 .cta-banner p {
   margin: 0;
@@ -112,10 +119,6 @@ a:visited {
 
 .event-card {
   display: flex;
-  background: #fff;
-  border: 1px solid var(--card-border);
-  border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(120, 72, 32, 0.10);
   overflow: hidden;
   align-items: stretch;
   max-width: 900px;
@@ -245,6 +248,91 @@ a:visited {
   }
 }
 
+
+.home-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 2em;
+}
+.home-main {
+  flex: 1 1 0%;
+  min-width: 0;
+}
+
+.community-sidebar {
+  flex: 0 0 300px;
+  position: sticky;
+  top: 1em;
+}
+.community-details {
+  padding: 1em 1.2em;
+}
+.community-summary {
+  margin: 0;
+  cursor: pointer;
+  font-size: 1.15em;
+  font-weight: 700;
+}
+.community-details[open] .community-summary {
+  margin-bottom: 0.6em;
+}
+.community-blurb {
+  margin: 0 0 0.8em;
+  font-size: 0.85em;
+  color: var(--ink);
+  opacity: 0.75;
+}
+.community-event-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9em;
+  max-height: 65vh;
+  overflow-y: auto;
+}
+.community-event {
+  border-bottom: 1px solid var(--card-border);
+  padding-bottom: 0.9em;
+}
+.community-event:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.community-event-title {
+  margin: 0 0 0.2em;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.community-event-title a {
+  text-decoration: none;
+}
+.community-event-title a:hover {
+  text-decoration: underline;
+}
+.community-event-meta {
+  margin: 0;
+  font-size: 0.85em;
+  opacity: 0.85;
+}
+.community-status {
+  margin: 0;
+  font-size: 0.9em;
+  opacity: 0.75;
+}
+
+@media (max-width: 900px) {
+  .home-layout {
+    flex-direction: column;
+  }
+  .community-sidebar {
+    flex-basis: auto;
+    width: 100%;
+    position: static;
+  }
+  .community-event-list {
+    max-height: none;
+  }
+}
 
 .site-header {
   width: 100%;
