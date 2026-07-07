@@ -318,6 +318,13 @@ a:visited {
     width: 100%;
     margin-left: 0;
     margin-top: 0.5em;
+    justify-content: flex-start;
+    gap: 0.5em;
+    padding-top: 0.5em;
+  }
+  .page-link {
+    padding: 0.6em 0.9em;
+    font-size: 1.08em;
   }
 }
 
@@ -333,22 +340,4 @@ a:visited {
 .page-link:focus {
   background: var(--accent-tint);
   color: var(--accent-dark);
-}
-
-@media (max-width: 600px) {
-  .site-header-flex {
-    flex-direction: column;
-    align-items: stretch;
-  }
-  .site-nav {
-    margin-left: 0;
-    width: 100%;
-    justify-content: flex-start;
-    gap: 0.5em;
-    padding-top: 0.5em;
-  }
-  .page-link {
-    padding: 0.6em 0.9em;
-    font-size: 1.08em;
-  }
 }
