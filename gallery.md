@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function() {
   {% for file in site.static_files %}
     {% if file.path contains 'assets/img/gallery/' %}
       {% if file.path contains 'tn-' %}
-        <a href="{{ file.path }}" class="gallery-thumb" target="_blank">
+        <a href="{{ file.path }}" class="gallery-thumb" target="_blank" rel="noopener">
           <img src="{{ file.path }}" alt="Gallery image">
         </a>
       {% endif %}

@@ -1,10 +1,12 @@
 <head>
+  {% assign now_epoch = site.time | date: '%s' %}
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
-  <script src="{{ "/assets/js/custom.js" | relative_url }}"></script>
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}?v={{ now_epoch }}">
+  <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}?v={{ now_epoch }}">
+  <script src="{{ "/assets/js/custom.js" | relative_url }}?v={{ now_epoch }}"></script>
 
   <title>They Might Be Ghosts!</title>
 
@@ -15,12 +17,23 @@
     <meta name="keywords" content="{{ page.tags | join: ', ' | escape }}">
   {% endif %}
 
-  {% if site.data.events.upcoming[0] %}
+  {% assign sorted_shows = site.data.events.shows | sort: 'date' %}
+  {% assign next_show = nil %}
+  {% for show in sorted_shows %}
+    {% assign show_epoch = show.date | date: '%s' %}
+    {% if show_epoch >= now_epoch %}
+      {% assign next_show = show %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+  {% if next_show %}
     <meta property="og:title" content="They Might Be Ghosts!">
-    <meta property="og:description" content="Next show: {{ site.data.events.upcoming[0].title }}">
-    <meta property="og:image" content="https://theymightbeghosts.com/assets/img/{{ site.data.events.upcoming[0].image }}">
+    <meta property="og:description" content="Next show: {{ next_show.title }}">
+    <meta property="og:image" content="{{ site.url }}/assets/img/{{ next_show.image }}">
     <meta name="twitter:card" content="summary_large_image">
   {% else %}
     <meta name="description" content="{{ page.description | escape }} for They Might Be Ghosts, an independent Seattle improv troupe!">
+    <meta property="og:image" content="{{ site.url }}/assets/img/logo.webp">
   {% endif %}
 </head>

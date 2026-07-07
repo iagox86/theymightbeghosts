@@ -1,69 +1,76 @@
-upcoming:
+shows:
   - title: Ghosts Made Me Do It @ The Vermillion (with Jazz Hands, a special magic guest, and more!)
-    date: "Thursday, July 23, 2026 @ 7pm (doors @ 6:30pm)"
+    date: "2026-07-23T19:00:00-07:00"
+    doors: "6:30pm"
     venue: The Vermillion
     venue_url: https://maps.app.goo.gl/sNMJPF7gPK3NLnQFA
     # url: https://jetcityimprov.my.salesforce-sites.com/ticket/PatronTicket__PublicTicketApp#/instances/a03VW00000htoRyYAI
     image: 2026-07-23-show-poster-vermillion.png
 
-past:
   - title: Ghosts Made Me Do It @ The Vermillion (with Jazz Hands and Panic and Actually, Never Mind)
-    date: "Wednesday, June 24, 2026 @ 7pm (doors @ 6:30pm)"
+    date: "2026-06-24T19:00:00-07:00"
+    doors: "6:30pm"
     venue: The Vermillion
     venue_url: https://maps.app.goo.gl/sNMJPF7gPK3NLnQFA
     # url: https://jetcityimprov.my.salesforce-sites.com/ticket/PatronTicket__PublicTicketApp#/instances/a03VW00000htoRyYAI
     image: 2026-06-24-show-poster-vermillion.jpeg
 
   - title: Improv Overload @ Halcyon Brewing
-    date: "Friday, April 24 @ 7pm"
+    date: "2026-04-24T19:00:00-07:00"
     venue: Halcyon Brewing
     venue_url: https://maps.app.goo.gl/eD5MS2qws5cgspLH8
     # url: https://jetcityimprov.my.salesforce-sites.com/ticket/PatronTicket__PublicTicketApp#/instances/a03VW00000htoRyYAI
     image: 2026-04-24-improv-overload.jpg
 
   - title: Ghosts Made Me Do It @ The Vermillion (with Stay Silly and New Cuss Words)
-    date: "Sunday, April 19 @ 7pm"
+    date: "2026-04-19T19:00:00-07:00"
     venue: The Vermillion
     venue_url: https://maps.app.goo.gl/sNMJPF7gPK3NLnQFA
     # url: https://jetcityimprov.my.salesforce-sites.com/ticket/PatronTicket__PublicTicketApp#/instances/a03VW00000htoRyYAI
     image: 2026-04-19-ghosts-made-me-do-it.webp
 
   - title: IndieProv @ Jet City
-    date: "Friday, March 13 @ 7:30pm (door @ 7pm)"
+    date: "2026-03-13T19:30:00-07:00"
+    doors: "7pm"
     venue: The Drama Room @ Jet City
     venue_url: https://goo.gl/maps/bwEv4n2Khmnbgv6P7
     url: https://jetcityimprov.my.salesforce-sites.com/ticket/PatronTicket__PublicTicketApp#/instances/a03VW00000htoRyYAI
     image: indieprov.png
 
   - title: Fifth Date Vibes @ Vermillion (with Dollbrick and Just Happy to Be Here)
-    date: "Wednesday, February 11, 2026 @ 7:00pm (doors @ 6:30pm)"
+    date: "2026-02-11T19:00:00-08:00"
+    doors: "6:30pm"
     venue: The Vermillion
     venue_url: https://maps.app.goo.gl/sNMJPF7gPK3NLnQFA
     image: 2026-02-11-fifth-date-vibes.webp
     details: Free show, just show up!
 
   - title: Improv @ Vermillion (with Servant of Two Maestros, Stay Silly, and Fan/Friction)
-    date: "Wednesday, December 17, 2025 @ 7:30pm (doors @ 7pm)"
+    date: "2025-12-17T19:30:00-08:00"
+    doors: "7pm"
     venue: Vermillion
     venue_url: https://maps.app.goo.gl/sNMJPF7gPK3NLnQFA
     # url: https://www.eventbrite.com/e/improv-vermillion-featuring-they-might-be-ghosts-dollbrick-tickets-1627034486949
     image: 2025-12-17-vermillion.avif
+
   - title: Improv Block Party
-    date: "Wednesday, December 10, 2025 @ 7pm (doors @ 6:30pm)"
+    date: "2025-12-10T19:00:00-08:00"
+    doors: "6:30pm"
     venue: Karoo Cafe
     venue_url: https://maps.app.goo.gl/DpNM376mZPBVXw6J8
     url: https://www.eventbrite.com/e/improv-block-party-tickets-1972868167798
     image: improv-block-party.jpeg
 
   - title: "Showdown: Improv Comedy Cage Match @ Bandit Theater"
-    date: "Friday, September 26 @ 7:00pm"
+    date: "2025-09-26T19:00:00-07:00"
     venue: Fremont Abbey 4272 Fremont Avenue North
     venue_url: http://maps.google.com/?q=4272%20Fremont%20Avenue%20North%20Seattle,%20WA,%2098103%20United%20States
     url: https://www.bandittheater.org/tickets/2025/4/6/showdown-improv-comedy-cage-match-7pm-show-h32ze-5bwx9-e7twg-dk956
     image: bandit.webp
 
   - title: Improv @ Vermillion (Dollbrick + They Might Be Ghosts)
-    date: "Sunday, September 7, 2025 @ 7pm (doors @ 6:30pm)"
+    date: "2025-09-07T19:00:00-07:00"
+    doors: "6:30pm"
     venue: Vermillion
     venue_url: https://maps.app.goo.gl/sNMJPF7gPK3NLnQFA
     url: https://www.eventbrite.com/e/improv-vermillion-featuring-they-might-be-ghosts-dollbrick-tickets-1627034486949
