@@ -315,12 +315,24 @@ a:visited {
     background: none;
     border: none;
     text-align: left;
-    width: 100%;
-    margin-left: 0;
-    margin-top: 0.5em;
-    justify-content: flex-start;
+    flex: 0 0 auto;
+    min-width: 0;
+    width: auto;
+    margin-left: auto;
+    margin-top: 0;
+    justify-content: flex-end;
     gap: 0.5em;
-    padding-top: 0.5em;
+  }
+  .site-nav .trigger {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: var(--cream-light);
+    border-top: 1px solid var(--card-border);
+    padding: 0.5em 0.5em 1em;
+    z-index: 10;
   }
   .page-link {
     padding: 0.6em 0.9em;
