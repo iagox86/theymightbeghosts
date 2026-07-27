@@ -319,6 +319,11 @@ a:visited {
   font-size: 0.9em;
   opacity: 0.75;
 }
+.event-status {
+  margin: 0;
+  font-size: 1em;
+  opacity: 0.75;
+}
 
 @media (max-width: 900px) {
   .home-layout {

@@ -70,13 +70,10 @@ document.addEventListener("DOMContentLoaded", function() {
 </div>
 
 <div class="image-gallery">
-  {% for file in site.static_files %}
-    {% if file.path contains 'assets/img/gallery/' %}
-      {% if file.path contains 'tn-' %}
-        <a href="{{ file.path }}" class="gallery-thumb" target="_blank" rel="noopener">
-          <img src="{{ file.path }}" alt="Gallery image">
-        </a>
-      {% endif %}
-    {% endif %}
+  {% assign gallery_thumbs = site.static_files | where_exp: "file", "file.path contains 'assets/img/gallery/'" | where_exp: "file", "file.path contains 'tn-'" | sort: "path" | reverse %}
+  {% for file in gallery_thumbs %}
+    <a href="{{ file.path }}" class="gallery-thumb" target="_blank" rel="noopener">
+      <img src="{{ file.path }}" alt="Gallery image">
+    </a>
   {% endfor %}
 </div>

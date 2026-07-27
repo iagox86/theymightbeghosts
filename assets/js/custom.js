@@ -31,7 +31,12 @@ document.addEventListener("DOMContentLoaded", function() {
       .filter(function(card) { return new Date(card.getAttribute('data-datetime')) < now; })
       .sort(function(a, b) { return new Date(b.getAttribute('data-datetime')) - new Date(a.getAttribute('data-datetime')); });
 
-    upcomingCards.forEach(function(card) { upcomingList.appendChild(card); });
+    if (upcomingCards.length) {
+      upcomingCards.forEach(function(card) { upcomingList.appendChild(card); });
+    } else {
+      upcomingList.innerHTML = '<p class="event-status">No upcoming shows scheduled -- check back soon!</p>';
+    }
+
     pastCards.forEach(function(card) { pastList.appendChild(card); });
 
     allEvents.remove();
