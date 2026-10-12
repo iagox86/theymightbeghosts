@@ -1,10 +1,20 @@
 shows:
+  - title: Indieprov @ Jet City (Drama Room)
+    date: "2026-11-13T19:30:00-08:00"
+    doors: "7pm"
+    venue: The Drama Room @ Jet City
+    venue_url: https://goo.gl/maps/bwEv4n2Khmnbgv6P7
+    url: https://jetcityimprov.my.salesforce-sites.com/ticket/PatronTicket__PublicTicketApp#/instances/a03VW00000vbE4oYAE
+    image: 2026-11-13-indieprov-drama-room.png
+    details: Pay what you can, $15 recommended
+
   - title: Improv Night with Hopscotch and special guests @ The Shanghai Room
     date: "2026-10-15T19:00:00-07:00"
     doors: "6:30pm"
     venue: The Shanghai Room
     venue_url: https://maps.app.goo.gl/Bkx5uCcpHUvkHXzF8
     # url:
+    image: 2026-10-15-shanghai-room.jpg
 
   - title: Indieprov @ Jet City West of Lenin
     date: "2026-08-20T19:30:00-07:00"
