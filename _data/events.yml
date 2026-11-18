@@ -1,4 +1,13 @@
 shows:
+  - title: Gone in 60 Minutes @ Jules Maes Saloon (with Late For Work, Dear Zak and Hannah, and The Rude Brothers)
+    date: "2026-12-06T18:00:00-08:00"
+    doors: "5:30pm"
+    venue: Jules Maes Saloon
+    venue_url: http://maps.google.com/?q=5919%20Airport%20Way%20S%2C%20Seattle%2C%20WA%2098108
+    url: https://partiful.com/e/QSZddp3vaPGW0SvmEVat
+    image: 2026-12-06-gone-in-60-minutes.png
+    details: Charity show, all money goes to Northwest Harvest. $10 suggested donation or pay what you can
+
   - title: Indieprov @ Jet City (Drama Room)
     date: "2026-11-13T19:30:00-08:00"
     doors: "7pm"
