@@ -6,6 +6,9 @@ shows:
     venue_url: http://maps.google.com/?q=5919%20Airport%20Way%20S%2C%20Seattle%2C%20WA%2098108
     url: https://partiful.com/e/QSZddp3vaPGW0SvmEVat
     image: 2026-12-06-gone-in-60-minutes.png
+    preview_image: 2026-12-06-gone-in-60-minutes-preview.jpg
+    preview_width: 800
+    preview_height: 1000
     details: Charity show, all money goes to Northwest Harvest. $10 suggested donation or pay what you can
 
   - title: Indieprov @ Jet City (Drama Room)

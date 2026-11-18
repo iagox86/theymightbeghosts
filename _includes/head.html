@@ -27,11 +27,23 @@
     {% endif %}
   {% endfor %}
 
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+
   {% if next_show %}
+    {% comment %}Optional preview_image is a small JPEG for link previews (some crawlers reject large files); width/height are only emitted if both are set.{% endcomment %}
+    {% assign preview = next_show.preview_image | default: next_show.image %}
+    {% assign preview_url = site.url | append: '/assets/img/' | append: preview %}
     <meta property="og:title" content="They Might Be Ghosts!">
     <meta property="og:description" content="Next show: {{ next_show.title }}">
-    <meta property="og:image" content="{{ site.url }}/assets/img/{{ next_show.image }}">
+    <meta property="og:image" content="{{ preview_url }}">
+    {% if next_show.preview_width and next_show.preview_height %}
+      <meta property="og:image:width" content="{{ next_show.preview_width }}">
+      <meta property="og:image:height" content="{{ next_show.preview_height }}">
+    {% endif %}
+    <meta property="og:image:alt" content="Poster for {{ next_show.title | escape }}">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{ preview_url }}">
   {% else %}
     <meta name="description" content="{{ page.description | escape }} for They Might Be Ghosts, an independent Seattle improv troupe!">
     <meta property="og:image" content="{{ site.url }}/assets/img/logo.webp">
